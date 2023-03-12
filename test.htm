@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The input accept attribute</h1>
+
+<form method="post" enctype="multipart/form-data" action="http://localhost/d7/public/api/add_product">
+  <label for="img">Select image:</label>
+  <input type="file" name="img_profile" accept="image/*">
+  <input type="file" name="img_in_page" accept="image/*">
+  <br><br>
+  exe
+  <input type="file" name="file_exe" accept="exe/*">
+  <input type="text" hidden name="title" value="sasaffwafwfwa">
+  <input type="text" hidden name="bio" value="sasaffwafwfwa">
+  <input type="text" hidden name="price_7day" value="1">
+  <input type="text" hidden name="price_30day" value="1">
+  <input type="text" hidden name="price_source_code" value="1">
+  <input type="text" hidden name="price_lifetime" value="1">
+  <input type="text" hidden name="token" value="SHzLIa6gmV5c3APT">
+  <br><br>
+  py
+  <input type="file" name="file_souce_code" accept="py/*">
+  <br><br><br>
+  <input type="submit">
+</form>
+
+<p><strong>Note:</strong> Because of security issues, this example will not allow you to upload files.</p>
+
+</body>
+</html>
